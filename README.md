@@ -70,6 +70,18 @@ This is list of all the DX Clusters that a telnet connection will be attempted t
   - trigger 
     - What String - "triggers" to send our callsign to log in. 
 
+#### Filter 
+
+It will greatly reduce the load on your local processing if you can filter as much as possible on the incoming records. 
+
+For example - it makes **NO SENSE** to connect to the RBN when you are in an SSB contest - especially if there is (and there often is !!, a CW contest running at the same time). 
+
+So filter #1 - connect to a relevant DX Cluster. 
+
+Filter #2 - use a rule like **accept on hf/cw and (on contesthf)**.
+
+The less data that hits your filtering processor the less work you need to perform. Plus it saves on bandwidth etc...
+
 At the bottom of the list of clusters we need to specify the **size** i.e. the number of records - I think this is a QT thing... not sure if it is enforced or not however.
 
 
