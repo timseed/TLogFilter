@@ -153,3 +153,9 @@ And rule 4 could be
 ```
 
 Here we only want JA (Japan) on 40m SSB for some reason.
+
+
+
+### Update
+
+Pushed to Github so that I can keep these files synched across multiple platforms.
